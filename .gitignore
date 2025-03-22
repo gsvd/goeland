@@ -1,0 +1,39 @@
+# === Go build outputs ===
+build/
+build/bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.log
+
+# === Node.js dependencies and build artifacts ===
+node_modules/
+frontend/node_modules/
+frontend/dist/
+.vite/
+
+# === Wails generated files ===
+wailsjs
+
+# === Environment files ===
+.env
+.env.*
+
+# === Editor/IDE config ===
+.vscode/
+.idea/
+*.iml
+*.swp
+
+# === OS-specific ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Testing and coverage ===
+coverage/
+*.coverprofile
